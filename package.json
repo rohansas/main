@@ -1,0 +1,23 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "\"# lets fuck\"",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohansas/main.git"
+  },
+  "author": "rohansas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohansas/main/issues"
+  },
+  "homepage": "https://github.com/rohansas/main#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
