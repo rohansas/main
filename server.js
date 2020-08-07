@@ -16,7 +16,8 @@ res.end()
 // ddos(msg.initial)
 // })
 
-setInterval(ddos,1)
+// setInterval(ddos,1)
+console.log("patched")
 var count=0;
 function ddos(){
 
@@ -33,7 +34,7 @@ function ddos(){
       
         // The whole response has been received. Print out the result.
         resp.on('end', () => {
-            // console.log(pythonData + botArray[count-4])
+            console.log(pythonData + botArray[count-4])
         });
       
       }).on("error", (err) => {
