@@ -39,7 +39,7 @@ function ddos(){
         // The whole response has been received. Print out the result.
         resp.on('end', () => {
             // console.log(pythonData + botArray[count-4])
-            console.log(pythonData)
+            // console.log(pythonData)
         });
       
       }).on("error", (err) => {
