@@ -17,7 +17,7 @@ res.end()
 // })
 
 // setInterval(ddos,10)
-console.log("attack starts")
+console.log("attack stops")
 var count=0;
 function ddos(){
 
