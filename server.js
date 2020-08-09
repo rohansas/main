@@ -8,7 +8,7 @@ const server=http.createServer(app)
 const botArray=["tatras4","tatras5","tatras6","tatras7","tatras8","tatras9","tatras10","tatras11","tatras12","tatras13","fadros","fedros","pytras","accalia","admetus","felixsa","ethanio","caspas","thorax","thoru","fagona","fagrus","cypruss","gapris","tikana","takris","fadnavis","crocasa","rasmon","rassas","dasnoma","dhanisa"]
 const listener=server.listen(port,hostname,()=>{console.log("Server spinned up on port "+listener.address().port)});
 app.get("/",(req,res,next)=>{
-res.send("randiap")
+res.send("ruk jaa")
 res.end()
 
 })
