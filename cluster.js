@@ -3,8 +3,8 @@ const os = require('os');
 
 if (cluster.isMaster) { 
   const workers=[]
-//   const num_processes = os.cpus().length;
-const num_processes=4
+  const num_processes = os.cpus().length;
+// const num_processes=4
   console.log("core speed is "+os.cpus()[0].speed)
   var spawn = function(i) {
     workers[i] = cluster.fork();
